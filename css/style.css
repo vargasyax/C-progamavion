@@ -10,6 +10,30 @@ h2{
 p special{
     text-align: center;
 }
+p texto{  
+    font-style:cata ;
+}
+
+
+.style-vida{
+
+background-color: brown ;
+height: 50vh;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family:sans-serif ;
+margin-top: 500px ;
+font-weight: 300;
+font-size: 4em;
+
+
+}
+.style-vida{
+
+    fon
+}
 /* catamaran-300 - latin */
 @font-face {
     font-family: 'Catamaran';
