@@ -1,0 +1,149 @@
+
+h1{ color: brown;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+
+
+}
+
+
+.acevedo{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+}
+.letra{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: brown;
+}
+
+
+p{
+
+    font-style: italic;
+    font-size: 60px;
+    
+}
+h2{
+    font-size: medium;
+    font-size: 30px;
+    font-family: cursive;
+}
+p special{
+    text-align: center;
+}
+p texto{  
+    font-style:cata ;
+}
+
+
+.main-content{
+    text-align: center;
+    background-color: red;
+   width: 300px;
+height: 100px;
+}
+
+.radio{ 
+    text-align: center;
+    background-color: blue;
+   width: 300px;
+height: 100px; 
+
+}
+
+.bruja{
+    text-align: center;
+    background-color: rgb(181, 27, 135);
+   width: 300px;
+height: 100px; 
+
+}
+
+.modo{
+    text-align: center
+}
+::backdrop col
+
+
+
+.todo{
+    background-color: mediumspringgreen;
+    width: 300px;
+    height: 300px;
+
+
+.loco{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cornflowerblue;
+}
+
+
+
+
+.box-img{
+    width: 100%;
+}
+
+.catalogo{
+    width: 100%;
+}
+
+.negra{
+    width: 50%;
+}
+
+.letra{
+    text-align: center;
+    align-items: center;
+    display: flex;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.style-vida{
+
+    font-size: 10em;
+}
+/* catamaran-300 - latin */
+@font-face {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/catamaran-v17-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/catamaran-v17-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/catamaran-v17-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/catamaran-v17-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/catamaran-v17-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/catamaran-v17-latin-300.svg#Catamaran') format('svg'); /* Legacy iOS */
+  }
+  /* catamaran-700 - latin */
+  @font-face {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/catamaran-v17-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/catamaran-v17-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/catamaran-v17-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/catamaran-v17-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/catamaran-v17-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/catamaran-v17-latin-700.svg#Catamaran') format('svg'); /* Legacy iOS */
+  }
