@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+padding: 0;
+}
+
+h1{
+    text-align: left;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.main-content {
+background-color: rgb(39, 202, 181);
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.for-title{
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form-box{
+    width: 90%;
+}
+
+
+
+.for-registro{
+    width: 90%;
+    height: 700px;
+    border: 1px solid rgb(191, 183, 233) ;
+    background-color: rgba(216, 189, 189, 0.8);
+    border-radius: 25px;
+    box-shadow:2px 2px 6px rgb(190, 157, 157)inset, -2px -2px 6px  rgb(255, 255, 255) inset
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
