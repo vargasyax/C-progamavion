@@ -1,18 +1,20 @@
-{
+*{
     margin: 0;
     padding: 0;
 }
 .main-nav {
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: rgba(54, 171, 175, 0.9);
     font-size: 1.4em;
+    
+
 }
 
 .roto-o{
     width: 100%;
-    height: 200px;
-    background-color: rgba(175, 53, 53, 0.342);
+    height: 600px;
+    background-color: rgba(194, 19, 19, 0.342);
     font-size: 1.4em;
 
 }
@@ -23,20 +25,29 @@
 ul {
     text-align: center;
     
+    
+
+    
 }
 li {
-    display: inline-block;
-    margin-top: 12px;
+    display:block;
+    padding-top: 15px;
 }
+
+
+
 .menu-a-style {
-    color: white;
+    color: rgb(238, 238, 238);
     text-decoration: none;
     padding: 0 20px;
     /* font-weight: 900; */
     
+    
 }
 .menu-a-style:hover {
-    color: rgb(216, 216, 216);
+    color: rgb(248, 246, 246);
+
+
 }
 h1 {
     margin-top: 30px;
@@ -53,7 +64,7 @@ h3 {
     width: 100%;
 }
 .box-img {
-    display: flex;
+    display:  block;
     justify-content: center;
     align-items: center;
     width: 800px;
@@ -71,7 +82,53 @@ h3 {
     color: rgb(243, 248, 241);
 }
 
+.menu{
+display: inline-block;
 
+    
+    
+    }
+    
+    
+
+@media only screen and (max-width: 950px) {
+    
+    ul {
+        color: black;
+        text-align: left;
+    }
+
+    .menu{
+       
+        color: aliceblue;
+        font-size: 2.5em;
+        padding-top: 10px;
+        padding-left: 25px;
+        cursor: pointer;
+            
+    }
+}
+
+
+
+/*cinzel-regular -latin*/
+@font-face {
+font-style: normal;
+font-weight: 400;
+}
+ 
+
+li{
+    padding-top: 15px;
+}
+
+.menu-a-style{
+
+    display:  inline-flex;
+    color: black;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(175, 53, 53, 0.342);
+}
 
 
 
