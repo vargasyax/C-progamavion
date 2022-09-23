@@ -49,18 +49,20 @@ line-height: 80px;
 }
 .nav-menu-item{
 
-    font-size: 18px;
+    font-size: 15px;
     margin: 0 10px;
-    line-height: 80px;
+    line-height: 70px;
     text-transform: uppercase;
     width: max-content;
+    color: aliceblue;
 }
 
 
 .nav-menu-link{
 
-    padding: 8px 12px;
-    border-radius: 3px;
+    padding: 10px 15px;
+    border-radius: 5px;
+
 }
 .nav-menu-link:hover,
 .nav-menu-link_active {
@@ -84,7 +86,7 @@ line-height: 80px;
  @media (max-width: 768px){
     body{
 
-        padding:70px  ;
+        padding-top:70px  ;
        }
        
        
@@ -126,7 +128,8 @@ line-height: 80px;
        .nav-menu-item{
        
            
-           line-height: 70px;
+           line-height: 200px;
+          
           
        }
        
@@ -141,5 +144,15 @@ line-height: 80px;
        .nav-toggle{
         display: block;
        }
+       .buttun{
 
+        background-color: brown;
+       } 
+       
+    .nav-menu_visible{
+        left: 0;
+    }
+   
+
+    }
   

@@ -1,9 +1,15 @@
-let navToggle = document.getElementById("nav-toggle")
+let barMenu = document.getElementById("barMenu");
+let menuUl = document.getElementById("menuUL");
 
-let navMenu= document.getElementById("nav-menu")
+barMenu.addEventListener("click", function() {
+    if (menuUl.classList.contains("menu-horiz")) {
+        menuUl.classList.remove("menu-horiz");
+        menuUl.classList.add("menu-responsive");
+    }
+    else {
+        menuUl.classList.add("menu-horiz");
+        menuUl.classList.remove("menu-responsive");
+    }
+})
+     
 
-
-navToggle.addEventListener("click",function ()  {  if 
-    (navMenu.classlist.contains(    ".nav-menu"))}
-    {navMenu.classlist.remove(    ".nav-menu"); 
- }
