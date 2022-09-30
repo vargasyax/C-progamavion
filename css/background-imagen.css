@@ -3,6 +3,10 @@
 margin: 0;
 padding: 0;
 }
+.body{
+
+    overflow: hidden;
+}
 .main-box {
 
     display: flex;
@@ -14,13 +18,44 @@ padding: 0;
    
 }
 .center-box {
-    width: 800px;
-    height: 800px;
+    width: 100%;
+    height: 100vh;
     background-color: rgb(22, 148, 201);
 }
 
+ .center-box{
+  background-image: url(../imagenes/hola.jpeg); 
+  width: 100%;
+  height: 100vh;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
 
 
+.nav-fijo{
+
+    position: fixed;
+    top: 30px;
+     width: 100%;
+    font-size: 2.0em;
+    background-color: black;
+    
+}
+ul{
+position: absolute;
+    text-align: right;
+    width: 100%;
+    right: 60px;
+    
+}
+li{
+    display: inline-block;
+    margin-left: 80px;
+    
+}
+.cuadro-ol{
+ color: aqua;
+}
 
 
 
