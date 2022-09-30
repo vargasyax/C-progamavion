@@ -1,18 +1,25 @@
 table{
-    background-color: aqua;
+    background-color: rgb(247, 247, 247);
     width: 42px;
+    color: rgb(7, 7, 7);
+    font-size: large;
+    text-align: center;
+    margin: auto;
+
+ 
     
     
 }
 th{
-    background-color: rgb(193, 193, 206);
+    background-color: rgb(86, 134, 212);
+
 }
 
 
 td{
 
-    background-color: rgb(203, 203, 231);
-
+    background-color: rgb(201, 224, 240);
+    padding: 90px 50px 20px 10px;
 }
 
 
